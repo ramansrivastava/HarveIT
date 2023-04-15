@@ -48,3 +48,8 @@ th, td {
 h1{
 	text-align: center;
 }
+
+.form-label{
+	text-align: left;
+	float: left;
+}
