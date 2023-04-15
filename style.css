@@ -38,6 +38,10 @@ th, td {
 
 .tab{
 	margin-left: 10%;
+	margin-right: 10%;
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
 }
 
 
