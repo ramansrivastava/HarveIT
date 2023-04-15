@@ -29,7 +29,7 @@
 }
 
 .searchbarpadding{
-	margin-left: 40%;
+	margin-left: 20px;
 }
 
 
@@ -38,8 +38,8 @@ th, td {
   }
 
 .tab{
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 10px;
+	margin-right: 10px;
 	display: block;
 	overflow-x: auto;
 	white-space: nowrap;
@@ -53,4 +53,9 @@ h1{
 .form-label{
 	text-align: left;
 	float: left;
+}
+
+
+.spaceloginbtn{
+	margin-right: 500px;
 }
