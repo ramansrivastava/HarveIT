@@ -1,6 +1,6 @@
 body {
     letter-spacing: 0.8px;
-    background: linear-gradient(0deg , #fff , 50% , #74a0ff);
+    /* background: linear-gradient(0deg , #17d02d , 95% , #ffffff); */
     background-repeat: no-repeat;    
 }
 
@@ -93,7 +93,7 @@ a{
 }
 
 #progressbar #step3:before {
-    content: "3";
+    content: "  3";
     color: #fff;
     width: 29px;
     margin-right: 15px !important;
@@ -143,6 +143,7 @@ a{
     background-color: #fff ;
     box-shadow: 2px 4px 15px 0px rgb(0, 108, 170);
     z-index: 0;
+    width: 30%;
 }
 
 small{
@@ -165,4 +166,9 @@ small{
     font-size: 1.1em;
     color: #8C9EFF;
     cursor: pointer;
+}
+
+.p-3{
+    background-image: linear-gradient(to right, #139d4d , #64e224);
+    
 }
