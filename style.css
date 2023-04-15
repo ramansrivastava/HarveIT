@@ -31,3 +31,11 @@
 	margin-left: 40%;
 }
 
+th, td {
+	padding: 15px;
+  }
+
+.tab{
+	margin-left: 10%;
+}
+
