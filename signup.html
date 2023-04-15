@@ -8,11 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <section class="vh-100" style="background-color: #d5dfe3;">
-        <div class="container">
+<body background="images/backgroundtile.png">
+    <section class="vh-100">
+        <div class="container py-5 h-100">
           <div class="row d-flex justify-content-center align-items-center h-100">
-            <div class="col-lg-12 col-xl-11">
+            <div class="col-lg-12 col-xl-9">
               <div class="card text-white" style="border-radius: 25px;background-color: #072b2e;" >
                 <div class="card-body p-md-5">
                   <div class="row justify-content-center">
@@ -26,7 +26,7 @@
                           <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                           <div class="form-outline flex-fill mb-0">
                             <input type="text" id="form3Example1c" class="form-control" />
-                            <label class="form-label" for="form3Example1c">Your Name</label>
+                            <label class="form-label" for="form3Example1c">Name</label>
                           </div>
                         </div>
       
@@ -34,7 +34,7 @@
                           <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                           <div class="form-outline flex-fill mb-0">
                             <input type="email" id="form3Example3c" class="form-control" />
-                            <label class="form-label" for="form3Example3c">Your Email</label>
+                            <label class="form-label" for="form3Example3c">Email</label>
                           </div>
                         </div>
       
@@ -50,7 +50,7 @@
                           <i class="fas fa-key fa-lg me-3 fa-fw"></i>
                           <div class="form-outline flex-fill mb-0">
                             <input type="password" id="form3Example4cd" class="form-control" />
-                            <label class="form-label" for="form3Example4cd">Repeat your password</label>
+                            <label class="form-label" for="form3Example4cd">Confirm password</label>
                           </div>
                         </div>
       
@@ -66,12 +66,17 @@
                         </div>
       
                       </form>
+
+                      <div>
+                        <p class="mb-0 centeralign">Already have an account? <a href="login.html" class="text-white-50 fw-bold">Login</a>
+                        </p>
+                      </div>
       
                     </div>
                     <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
       
-                      <img src="TransparentLogo.png"
-                        class="img-fluid" alt="Sample image">
+                      <a href="/"><img src="TransparentLogo.png"
+                        class="img-fluid" alt="Sample image"></a>
       
                     </div>
                   </div>

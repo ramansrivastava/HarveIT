@@ -29,7 +29,19 @@
                   <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
                   <li><a href="#" class="nav-link px-2 text-white">About</a></li>-->
                 </ul>
-                <a href="location.html"><button type="button" class="btn btn-link"><img src="images/location.png" width="50" alt="buttonpng"/></button></a>
+                <div class="dropdown">
+                  <button class="btn btn-link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="images/location.png" width="50" alt="buttonpng"/>
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    
+
+                    <div class="form-outline form-white mb-4">
+                      <input type="pin" id="typeEmailX" class="form-control form-control-lg" placeholder="PIN Code"/>
+                      <button class="btn btn-lg"  type="submit">Submit</button>
+                    </div>
+                  </div>
+                </div>
                 <a href="notifications.html"><button type="button" class="btn btn-link"><img src="images/bell.png" width="50" alt="buttonpng"/></button></a>
                 <a href="track.html"><button type="button" class="btn btn-link"><img src="images/track.png" width="50" alt="buttonpng"/></button></a>
                 <a href="cart.html"><button type="button" class="btn btn-link"><img src="images/basket.png" width="50" alt="buttonpng"/></button></a>
@@ -100,7 +112,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <h1> </h1>
-        <h1>
+        <h1 class="centeralign">
           Fresh Fruits
         </h1>
     </section>
@@ -113,7 +125,7 @@
                       <div class="card-body">
                         <h5 class="card-title">Apples</h5>
                         <p class="card-text">₹100-250/kg</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
+                        <a href="apples.html" class="btn btn-primary">Buy Now</a>
                       </div>
                     </div>
               </td>
@@ -173,7 +185,7 @@
 
   </section>
   <h1> </h1><h1> </h1>
-  <h1>
+  <h1 class="centeralign">
     Fresh Veggies
   </h1>
   <section id="vegetablecards">

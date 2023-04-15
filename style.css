@@ -45,8 +45,19 @@ th, td {
 }
 
 
-h1{
+.centeralign{
 	text-align: center;
+	margin: auto ;
+}
+
+.leftalign{
+	margin-left: 0px;
+	text-align: left;
+}
+
+.rightalign{
+	margin-right: 0px;
+	text-align: right;
 }
 
 .form-label{
@@ -55,6 +66,6 @@ h1{
 }
 
 
-.spaceloginbtn{
-	margin-right: 500px;
+.sellerbuttonleft{
+	text-align: 0px;
 }
