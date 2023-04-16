@@ -28,6 +28,7 @@ Community based Vegetables / Food sharing:
 •	The system should also allow users to track the status of their trades and receive notifications when a trade has been initiated or completed. 
 •	Additionally, the web app could offer a feature that connects users with local farmers markets or grocery stores to sell their produce at a competitive price.
  
+
 Our Solution:
 
 Harv.IT: A Community based Agricultural Produce Trading Platform. This platform allows the users to have a location-based insight on agro-produce and pricing.
